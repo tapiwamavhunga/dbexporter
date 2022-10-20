@@ -1331,7 +1331,7 @@ $(function() {
                 $('#review .review-text').html('ERRORS FOUND');
                 $('#review-progress .progress-bar').removeClass('progress-bar-success').addClass('progress-bar-danger');
                 $('#review-progress .triangle').removeClass('success').addClass('danger');
-                //$('#results tr.error > td:eq(1)').html(out.message).parent().show();
+                $('#results tr.error > td:eq(1)').html(out.message).parent().show();
             }
         });
 
